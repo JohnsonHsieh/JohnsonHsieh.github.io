@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives | Hexo</title>
+  <title>Archives | 讀數一格</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="og:type" content="blog">
 <meta name="og:title">
 <meta name="og:url" content="http://yoursite.com/archives/">
 <meta name="og:image">
-<meta name="og:site_name" content="Hexo">
+<meta name="og:site_name" content="讀數一格">
 <meta name="og:description">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="讀數一格" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -31,7 +31,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">讀數一格</a>
       </h1>
       
     </div>
@@ -59,12 +59,16 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-intro-datasci" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/03/10/hello-world/" class="article-date">
-  <time datetime="2014-03-10T13:45:27.000Z" itemprop="datePublished">Mar 10 2014</time>
+    <a href="/2014/03/09/intro-datasci/" class="article-date">
+  <time datetime="2014-03-09T13:45:27.000Z" itemprop="datePublished">3月 9 2014</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/資料科學/">資料科學</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -73,7 +77,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/03/10/hello-world/">Hello World</a>
+      <a class="article-title" href="/2014/03/09/intro-datasci/">資料科學之我見</a>
     </h1>
   
 
@@ -81,14 +85,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
+        <p>我的觀點是這樣的，任何時代都有資料科學的問題。最早的資料科學可以追朔到統治者在處理軍役戶政以及農業畜牧的問題上，經典的例子就是<a href="http://zh.wikipedia.org/wiki/%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5" target="_blank">人口調查</a>與<a href="http://www3.stat.sinica.edu.tw/camp2012/download/%E5%91%82%E6%A4%BF%E6%A3%A0.pdf" target="_blank">農產品改良試驗</a>。接著數據分析被應用到工業界中，譬如提高產能與改善良率的統計方法。同時，經濟學、社會學、生命科學…也開始透過統計方法來描述現象、驗證假說。近來計算機科學發展成熟，資料儲存的成本降低，從大數據中萃取有用資訊的演算技術逐漸受到重視，這種從大數據中尋找挖掘可供決策的規則就是所謂的資料探勘 (Data mining)。</p>
+<p>事實上，<strong>從古到今資料科學的本質並沒有不同，改變的只是因應人類活動型態的轉變，使得數據的收集方式及其分析方法跟著轉變罷了</strong>。現在Big Data很熱門，卻也陷入Big的迷思，忘了資料科學的本質其實是在Data上。談到Data，必須先說明資料如何收集。一般來說可以分成top-down與bottom-up兩種。所謂的<strong>top-down係指企業主在資料收集前，有既定的問題想要解答</strong>，譬如某樂利杯咖啡的企業想要訂定飲品的優惠行銷策略，這時候必須透過收集各個分店每種飲品在各種時間與季節的銷售數據，甚至是特殊優惠活動時飲品的銷售記錄等等資料，進行數據分析以回答問題。另一種<strong>bottom-up是從既有資料中尋找規則</strong>，譬如從前述飲品的銷售數據中，歸納出那些飲品組合最受到消費者喜愛，讓企業達到飲品事先推薦、飲品銷售預測等等目的。當然，資料的收集並不侷限是top-down或是bottom-up，而是兩者上上下下的循環，藉由不斷的調整為企業創造最大的利益。以上例子，可以被應用在一間小店上，也可以用在全台展店數百家的企業上，甚至可以用在全球五大洲擁有數千間連鎖分店的企業之上。對於資料科學而言，無論資料規模的大小，透過Data來解決問題的本質是始終不變的。差別僅在於時代的進步，資料收集的方式比以往方便也更加多元。當然相對於可以在中小規模的數據上使用的統計方法，套到大數據時會有運算效率不彰的問題，但我認為這是技術上的問題，並不影響基本的統計思維。</p>
+<p>把問題收斂，如果企業主想要利用Data來 (無論是Big Data, Middle Data 還是 Small Data) 提升企業的營運，該怎麼做？第一步多半是想找一位精通資料科學的專業人才吧。但是當他們想要這麼做時，卻發現找不到這種人才。真的是這樣嗎？</p>
+<p>我以為資料科學基本的流程是這樣子的：</p>
+<ol>
+<li>列出企業想要透過Data解決的問題</li>
+<li>記錄所有可能有助於找出答案的Data</li>
+<li>從Data中萃取出規則以回答問題</li>
+</ol>
+<p>每段流程都是獨門的學問，能夠同時精通三者的人才真的是少之又少，能夠識別這種人才的企業更是寥寥無幾。何不從上述三段流程各別尋找對應的人才呢？企業主需要的可能是一位資料科學專家，也可以是一個實力堅強的資料科學團隊。從具有實務經驗的人才庫中尋找第一階段的人選；從具有資料倉儲經驗的人才庫中尋找第二階段的人選；再從具備資料分析能力的人才庫中尋找第三階段的人選。而我所參與的 <a href="http://datasci.io" target="_blank">Data Science Program (DSP)</a> 課程設計的目標，除了各自培養三個階段的人才之外，同時也注重這三種人才的交流與整合。 其中<a href="http://datasci.co/2014/02/11/dsp-201403/" target="_blank">DSP團訓班</a>課程設計的目的就是把這三種人才放在一個團隊裡面，透過各種資料科學面向的課程以及team project的實戰方式，整合出一個完整的資料科學團隊。再補充兩個概念。第一，上述三段流程並不完全是由上至下來執行，而是需要團隊成員彼此不斷的交流與溝通才能成就出良好的分析結果。第二，已經具備上述三種之中任一種職能的人，透過團訓的過程培養第二、第三種職能並不困難。</p>
+<p>總之，我想要強調的有兩點：1. <strong>現階段的資料科學正處於Big Data的浪潮上，Big的確是當前資料的主要特徵，但是核心主角仍然落在Data上</strong>，透過數據的深度分析，將數據轉化成可供企業決策的資訊與知識，才是資料科學中心思想。2. 資料科學這門領域既深且廣，能完全精通此道者無疑是萬中選一的逸才。不過，若能透過<strong>資料科學團隊的合作方式，也不失為一種降低資料科學門檻的方法</strong>。                            </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/03/10/hello-world/" data-id="8h31uca9rgqblzee" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2014/03/09/intro-datasci/" data-id="9ohaiqq2umclipgg" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/data science/">data science</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dsp/">dsp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/statistics/">statistics</a></li></ul>
+
     </footer>
   </div>
   
@@ -102,16 +118,37 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/資料科學/">資料科學</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/data science/">data science</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dsp/">dsp</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/statistics/">statistics</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/data science/" style="font-size: NaNpx;">data science</a><a href="/tags/dsp/" style="font-size: NaNpx;">dsp</a><a href="/tags/statistics/" style="font-size: NaNpx;">statistics</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03">March 2014</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03">三月 2014</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -123,7 +160,7 @@
       <ul>
         
           <li>
-            <a href="/2014/03/10/hello-world/">Hello World</a>
+            <a href="/2014/03/09/intro-datasci/">資料科學之我見</a>
           </li>
         
       </ul>
